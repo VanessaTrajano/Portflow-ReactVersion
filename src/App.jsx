@@ -1,10 +1,15 @@
-function App() {
+import Title from "./components/header/Title";
+import { GlobalStyle } from "./styles/GlobalStyle";
 
+function App() {
   return (
     <>
-      <h1>Teste</h1>
+      <GlobalStyle />
+      <div>
+        <Title/>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

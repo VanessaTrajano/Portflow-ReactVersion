@@ -1,11 +1,11 @@
-function Title() {
+import { PageTitle } from "../../styles/HeaderStyle";
 
-    return (
-      <>
-      
-      </>
-    )
-  }
-  
-  export default Title
-  
+function Title() {
+  return (
+    <>
+      <PageTitle>Portflow</PageTitle>
+    </>
+  );
+}
+
+export default Title;
