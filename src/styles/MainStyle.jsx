@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import ImagemLaranja from "../images/laranja-azul.png"
 
+// estilo pertencente ao componente Banner
+
 export const BannerContainer = styled.section`
     height: 85vh;
     width: 100%;
@@ -25,4 +27,19 @@ export const BannerSubtitle = styled.h3`
     position: absolute;
     top:45vh;
     left: 7vw;
+`
+
+// estilo pertencente ao componente Images
+
+export const ImagesContainer = styled.section`
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 0;
+
+    img{
+        height: 45vh;
+        margin: 20px 0;
+    }
 `
