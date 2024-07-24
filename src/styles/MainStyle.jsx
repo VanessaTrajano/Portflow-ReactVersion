@@ -2,7 +2,7 @@ import styled from "styled-components";
 import ImagemLaranja from "../images/laranja-azul.png"
 
 export const BannerContainer = styled.section`
-    height:80vh;
+    height: 85vh;
     width: 100%;
     background-size:100% 100%;
     background-image: url(${ImagemLaranja});
@@ -11,18 +11,18 @@ export const BannerContainer = styled.section`
 `
 
 export const BannerTitle = styled.h2`
-    font-size: 3.7vw;
+    font-size: 4vw;
     font-weight:900;
     position: absolute;
-    top:22vh;
+    top:29vh;
     left: 7vw;
 `
 
 export const BannerSubtitle = styled.h3`
-    font-size:2.3vw;
-    font-weight:500;
+    font-size:2vw;
+    font-weight:400;
     text-transform:uppercase;
     position: absolute;
-    top:35vh;
+    top:45vh;
     left: 7vw;
 `
