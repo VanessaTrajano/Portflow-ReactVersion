@@ -2,7 +2,7 @@ import NavBar from "./components/header/NavBar";
 import Title from "./components/header/Title";
 import Banner from "./components/main/Banner";
 import Images from "./components/main/Images";
-import { Header } from "./styles/AppStyle";
+import { Header, Main } from "./styles/AppStyle";
 import { GlobalStyle } from "./styles/GlobalStyle";
 
 function App() {
@@ -13,10 +13,10 @@ function App() {
         <Title/>
         <NavBar/>
       </Header>
-      <main>
+      <Main>
         <Banner/>
         <Images/>
-      </main>
+      </Main>
     </>
   );
 }
