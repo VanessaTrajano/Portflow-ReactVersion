@@ -1,3 +1,5 @@
+import Copyright from "./components/footer/Copyright";
+import SocialMedia from "./components/footer/SocialMedia";
 import NavBar from "./components/header/NavBar";
 import Title from "./components/header/Title";
 import Banner from "./components/main/Banner";
@@ -17,6 +19,10 @@ function App() {
         <Banner/>
         <Images/>
       </Main>
+      <footer>
+        <SocialMedia/>
+        <Copyright/>
+      </footer>
     </>
   );
 }
