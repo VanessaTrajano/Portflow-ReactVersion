@@ -20,3 +20,9 @@ export const Main = styled.main`
 `
 
 // footer
+
+export const Footer = styled.footer`
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+`
