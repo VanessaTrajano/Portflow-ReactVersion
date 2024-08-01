@@ -1,9 +1,13 @@
-import { NavigationBar } from "../../styles/HeaderStyle"
+import { NavigationBar, HamburguerMenu } from "../../styles/HeaderStyle"
+import MenuImage from "../../images/menu.jpg"
 
 function NavBar() {
 
     return (
       <>
+        <HamburguerMenu>
+          <img src={MenuImage}/>
+        </HamburguerMenu>
         <NavigationBar>
           <ul>
             <li>Home</li>
